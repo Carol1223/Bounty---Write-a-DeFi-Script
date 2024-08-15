@@ -27,3 +27,23 @@ The following diagram provides a visual representation of the workflow described
 1. Clone the project repository:
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
+
+
+
+
+2. Install the necessary dependencies:
+   ```bash
+   npm install --save
+   ```
+
+3. Create a `.env` file in the root of the project directory and add your RPC URL and private key:
+   ```bash
+   RPC_URL="https://sepolia.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+   PRIVATE_KEY="YOUR_PRIVATE_KEY"
+   ```
+
+4. Run the script to execute the token swap and deposit the LINK tokens into Aave:
+   ```bash
+   node index.js
+   ```
+
